@@ -1,0 +1,6 @@
+
+# 去掉本地调试文件
+node_modules/*
+package-lock.json
+*.log
+

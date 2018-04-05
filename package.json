@@ -1,0 +1,25 @@
+{
+  "name": "simple_node_server",
+  "version": "1.0.0",
+  "description": "a simple node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "supervisor server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i2Echo/simple_node_server.git"
+  },
+  "author": "kujohnln",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i2Echo/simple_node_server/issues"
+  },
+  "homepage": "https://github.com/i2Echo/simple_node_server#readme",
+  "dependencies": {
+    "mime": "^2.2.2",
+    "supervisor": "^0.12.0"
+  }
+}
